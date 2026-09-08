@@ -7,6 +7,7 @@
 - Identifier provenance, result/measurement provenance, immutable final results, and report amendment chain.
 - Canonical controlled values, terminology references, units, services, work items, acquisitions, observations, interpretations, verification, studies, and protected-object metadata with synthetic multimodality fixture tests.
 - Device Hub foundation: scoped device registry/lifecycle, versioned adapter seam, idempotent synthetic ingestion, quarantine, replay request boundary, bounded retry, and adapter provenance. No real devices or protocol transports.
+- Worklist & acquisition workflow foundation: tenant-scoped work creation, schedule conflict validation, assignment, claims, guarded acquisition/processing/completion state machine, worklist projection, and local audit events.
 
 ## Architecture only
 
