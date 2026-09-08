@@ -1,0 +1,13 @@
+{
+  "name": "diagnostic-information-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Diagnostic workflow and interoperability foundation",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check src/domain.js && node --check src/platform.js && node --check src/canonical.js && node --check src/api.js && node --check src/device-hub.js",
+    "check": "npm run lint && npm test"
+  },
+  "engines": { "node": ">=20" }
+}

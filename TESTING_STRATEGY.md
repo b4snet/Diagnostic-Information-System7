@@ -1,0 +1,3 @@
+# Testing strategy
+
+Tests prove explicit lifecycle transitions, organization/site isolation in the local adapter, audit creation, final result immutability, and report amendment linkage. Step 2 synthetic fixtures represent ECG, PFT, X-ray, CT, MRI, laboratory, and pathology through the same service/work/acquisition/observation model, and test controlled values, API projection, provenance, verification, and context integrity. Later tests must cover real authentication, PostgreSQL/RLS, API contracts, FHIR mapping, HL7 parser/ACK/retry, DICOM metadata, device payloads, object storage, and property invariants.

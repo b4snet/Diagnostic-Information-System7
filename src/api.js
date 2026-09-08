@@ -1,0 +1,3 @@
+/** Explicit API projection: exposes canonical meaning, not storage or audit internals. */
+export function observationApi(observation) { return Object.freeze({ id:observation.id, patientId:observation.patientId, orderId:observation.orderId, acquisitionId:observation.acquisitionId, code:observation.code, value:observation.value, status:observation.status, effectiveAt:observation.effectiveAt, issuedAt:observation.issuedAt, provenanceId:observation.provenance.id }); }
+export function reportApi(report) { return Object.freeze({ id:report.id, patientId:report.patientId, orderId:report.orderId, status:report.status, content:report.content, resultIds:report.resultIds, version:report.version, supersedes:report.supersedes || null, provenanceId:report.provenance.id }); }
