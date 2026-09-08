@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "lint": "node --check src/domain.js && node --check src/platform.js && node --check src/canonical.js && node --check src/api.js && node --check src/device-hub.js && node --check src/workflow-engine.js",
+    "lint": "node --check src/domain.js && node --check src/platform.js && node --check src/canonical.js && node --check src/api.js && node --check src/device-hub.js && node --check src/workflow-engine.js && node --check src/ecg.js",
     "check": "npm run lint && npm test"
   },
   "engines": { "node": ">=20" }
